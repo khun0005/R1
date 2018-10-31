@@ -111,7 +111,7 @@ display: block;
    
 }
 .primary h1,h2,h3{
-    color: red;
+    color: #3f4042;
 }
 .primary img{
     display: block;
@@ -158,7 +158,6 @@ footer{
 @media(max-width: 599px){
     .mast{
         max-width: 100%;
-        background-color: green;
         font-size:1.5rem; 
         text-align: left;
     }
@@ -223,7 +222,7 @@ footer{
         width: 100%;
     }
     .primary h1,h2,h3{
-        color: blue;
+        color: #3f4042;
     }
    .primary h1,h2,h3{
      color: #57585c;
