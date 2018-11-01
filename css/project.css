@@ -34,9 +34,7 @@ ol{
 li{
     
 }
-img{
-    width: 25%;
-}
+
 
 /*************************************************
             HEADER
@@ -109,6 +107,7 @@ display: block;
     background-color: #caced1;
     font-size: 1.3rem;
    
+   
 }
 .primary h1,h2,h3{
     color: #3f4042;
@@ -176,13 +175,14 @@ footer{
         color: #333132;
     }
  .primary img{
-        width: 100%;
+        width: 80%;
 }
 .primary{
         background-color: #f7f8f8;
         max-width: 100%;
         flex-direction: column;  
     font-size: .9rem;
+    text-align: justify;
 }
     
 }
@@ -192,6 +192,7 @@ footer{
         font-family: 'Assistant', "Times New Roman", sans-serif;
         max-width: 100%;
         background-color: #3f4042;
+        
     }
     nav{
         color:#3f4042;
@@ -203,6 +204,7 @@ footer{
         max-width: 100%;
         flex-direction: row;
         font-size: 1rem;
+      text-align: justify;
     }  
     
     .primary h1,h2,h3{
@@ -215,11 +217,14 @@ footer{
     .foot{
         background-color: #737677;
     }
+    .primary img{
+        width: 80%;
+    }
 }
 
 @media (min-width: 1000px){
     .primary img{
-        width: 100%;
+        width: 80%;
     }
     .primary h1,h2,h3{
         color: #3f4042;
@@ -241,6 +246,9 @@ footer{
     } 
     .mainnav{
         background-color: #c2c3c6;
+    }
+    .primary{
+        text-align: justify;
     }
 }
 
